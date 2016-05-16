@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF6786111CDAE3330073A4FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6786101CDAE3330073A4FA /* main.m */; };
+		CF6786141CDAE3330073A4FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6786131CDAE3330073A4FA /* AppDelegate.m */; };
+		CF6786171CDAE3330073A4FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6786161CDAE3330073A4FA /* ViewController.m */; };
+		CF67861A1CDAE3330073A4FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6786181CDAE3330073A4FA /* Main.storyboard */; };
+		CF67861C1CDAE3330073A4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF67861B1CDAE3330073A4FA /* Assets.xcassets */; };
+		CF67861F1CDAE3330073A4FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF67861D1CDAE3330073A4FA /* LaunchScreen.storyboard */; };
+		CF6786281CDAE44C0073A4FA /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6786271CDAE44C0073A4FA /* CustomButton.m */; };
+		CF67862A1CDB4EDC0073A4FA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6786291CDB4EDC0073A4FA /* icon.png */; };
+		CF6EC58B1CDC344800412868 /* UIButton+countDown.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6EC58A1CDC344800412868 /* UIButton+countDown.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF67860C1CDAE3320073A4FA /* 仿扣扣未读消息自定义多种按钮实例动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿扣扣未读消息自定义多种按钮实例动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6786101CDAE3330073A4FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF6786121CDAE3330073A4FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF6786131CDAE3330073A4FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF6786151CDAE3330073A4FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF6786161CDAE3330073A4FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF6786191CDAE3330073A4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF67861B1CDAE3330073A4FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF67861E1CDAE3330073A4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF6786201CDAE3330073A4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6786261CDAE44C0073A4FA /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		CF6786271CDAE44C0073A4FA /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		CF6786291CDB4EDC0073A4FA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CF6EC5891CDC344800412868 /* UIButton+countDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+countDown.h"; sourceTree = "<group>"; };
+		CF6EC58A1CDC344800412868 /* UIButton+countDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+countDown.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF6786091CDAE3320073A4FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF6786031CDAE3320073A4FA = {
+			isa = PBXGroup;
+			children = (
+				CF67860E1CDAE3330073A4FA /* 自定义多种按钮实例 */,
+				CF67860D1CDAE3320073A4FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF67860D1CDAE3320073A4FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF67860C1CDAE3320073A4FA /* 仿扣扣未读消息自定义多种按钮实例动画.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF67860E1CDAE3330073A4FA /* 自定义多种按钮实例 */ = {
+			isa = PBXGroup;
+			children = (
+				CF6786121CDAE3330073A4FA /* AppDelegate.h */,
+				CF6786131CDAE3330073A4FA /* AppDelegate.m */,
+				CF6EC5931CDC44F900412868 /* Button */,
+				CF6EC5921CDC44E700412868 /* VC */,
+				CF6786181CDAE3330073A4FA /* Main.storyboard */,
+				CF67861B1CDAE3330073A4FA /* Assets.xcassets */,
+				CF6786291CDB4EDC0073A4FA /* icon.png */,
+				CF67861D1CDAE3330073A4FA /* LaunchScreen.storyboard */,
+				CF6786201CDAE3330073A4FA /* Info.plist */,
+				CF67860F1CDAE3330073A4FA /* Supporting Files */,
+			);
+			name = "自定义多种按钮实例";
+			path = "仿扣扣未读消息按钮动画";
+			sourceTree = "<group>";
+		};
+		CF67860F1CDAE3330073A4FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF6786101CDAE3330073A4FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF6EC5921CDC44E700412868 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CF6786151CDAE3330073A4FA /* ViewController.h */,
+				CF6786161CDAE3330073A4FA /* ViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		CF6EC5931CDC44F900412868 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				CF6786261CDAE44C0073A4FA /* CustomButton.h */,
+				CF6786271CDAE44C0073A4FA /* CustomButton.m */,
+				CF6EC5891CDC344800412868 /* UIButton+countDown.h */,
+				CF6EC58A1CDC344800412868 /* UIButton+countDown.m */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF67860B1CDAE3320073A4FA /* 仿扣扣未读消息自定义多种按钮实例动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF6786231CDAE3330073A4FA /* Build configuration list for PBXNativeTarget "仿扣扣未读消息自定义多种按钮实例动画" */;
+			buildPhases = (
+				CF6786081CDAE3320073A4FA /* Sources */,
+				CF6786091CDAE3320073A4FA /* Frameworks */,
+				CF67860A1CDAE3320073A4FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿扣扣未读消息自定义多种按钮实例动画";
+			productName = "仿扣扣未读消息按钮动画";
+			productReference = CF67860C1CDAE3320073A4FA /* 仿扣扣未读消息自定义多种按钮实例动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF6786041CDAE3320073A4FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "亿信互联";
+				TargetAttributes = {
+					CF67860B1CDAE3320073A4FA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CF6786071CDAE3320073A4FA /* Build configuration list for PBXProject "自定义多种按钮实例" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF6786031CDAE3320073A4FA;
+			productRefGroup = CF67860D1CDAE3320073A4FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF67860B1CDAE3320073A4FA /* 仿扣扣未读消息自定义多种按钮实例动画 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF67860A1CDAE3320073A4FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF67862A1CDB4EDC0073A4FA /* icon.png in Resources */,
+				CF67861F1CDAE3330073A4FA /* LaunchScreen.storyboard in Resources */,
+				CF67861C1CDAE3330073A4FA /* Assets.xcassets in Resources */,
+				CF67861A1CDAE3330073A4FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF6786081CDAE3320073A4FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6786281CDAE44C0073A4FA /* CustomButton.m in Sources */,
+				CF6786171CDAE3330073A4FA /* ViewController.m in Sources */,
+				CF6786141CDAE3330073A4FA /* AppDelegate.m in Sources */,
+				CF6EC58B1CDC344800412868 /* UIButton+countDown.m in Sources */,
+				CF6786111CDAE3330073A4FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF6786181CDAE3330073A4FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF6786191CDAE3330073A4FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF67861D1CDAE3330073A4FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF67861E1CDAE3330073A4FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF6786211CDAE3330073A4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF6786221CDAE3330073A4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF6786241CDAE3330073A4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿扣扣未读消息按钮动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yxhl.www.-----------";
+				PRODUCT_NAME = "仿扣扣未读消息自定义多种按钮实例动画";
+			};
+			name = Debug;
+		};
+		CF6786251CDAE3330073A4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿扣扣未读消息按钮动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yxhl.www.-----------";
+				PRODUCT_NAME = "仿扣扣未读消息自定义多种按钮实例动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF6786071CDAE3320073A4FA /* Build configuration list for PBXProject "自定义多种按钮实例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6786211CDAE3330073A4FA /* Debug */,
+				CF6786221CDAE3330073A4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF6786231CDAE3330073A4FA /* Build configuration list for PBXNativeTarget "仿扣扣未读消息自定义多种按钮实例动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6786241CDAE3330073A4FA /* Debug */,
+				CF6786251CDAE3330073A4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF6786041CDAE3320073A4FA /* Project object */;
+}
